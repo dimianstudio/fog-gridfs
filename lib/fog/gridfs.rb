@@ -3,7 +3,7 @@ require 'fog/gridfs/version'
 
 module Fog
   module Storage
-    autoload :Gridfs, File.expand_path('../storage/gridfs', __FILE__)
+    autoload :Gridfs, 'fog/gridfs/storage'
   end
 
   module Gridfs
