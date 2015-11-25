@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Module for the 'fog' gem to support gridfs storage.}
   spec.description   = %q{This library can be used as a module for `fog` or as standalone provider
                           to use gridfs storage.}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/dimianstudio/fog-gridfs"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
